@@ -1,1 +1,1 @@
-# Expensify
+# React Redux Firebase Boilerplate
