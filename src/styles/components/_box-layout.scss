@@ -6,6 +6,15 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    z-index: 1;
+  }
 }
 
 
@@ -15,6 +24,7 @@
   padding: $l-size $m-size;
   text-align: center;
   width: 25rem;
+  z-index: 2;
 }
 
 .box-layout__title {
